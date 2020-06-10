@@ -23,10 +23,20 @@ class Queue:
 
 q = Queue()
 S = q.enqueue(10)
+print(S)
+
 S = q.enqueue(20)
+print(S)
+
 S = q.enqueue(30)
+print(S)
+
 S = q.enqueue(40)
+print(S)
+
 S = q.enqueue(50)
+print(S)
+
 S = q.dequeue()
 print(S)
 S = q.isEmpty()

@@ -14,7 +14,8 @@ def appendLastNode(head, new_data):
 def appendFirstNode(head, new_data):
     new_node = Node(new_data)           #create the new node 370__--> head
     new_node.next = head                #New_node Link to head 
-    return new_node                     
+    head = new_node
+    return head                     
 
 def appendInMiddle(head,new_data,key):
     temp = head                          
