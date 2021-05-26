@@ -8,7 +8,7 @@ class Stack:
         return
 
     def pop(self):
-        self.list.pop()
+        self.list.pop(self.list[len(self.list)-1])
         return
 
     def isempty(self):
